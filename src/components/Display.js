@@ -5,9 +5,9 @@ import Resume from "./Resume";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
-export default function Display() {
+export default function Display({isLargeScreen}) {
   return (
-    <div className="pl-[25%]    w-screen back text-white  ">
+    <div className={`pl-${isLargeScreen ? "60" : "0"} w-screen back text-white`}>
       <Home />
       <About />
       <Resume />
