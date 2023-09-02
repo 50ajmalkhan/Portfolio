@@ -7,7 +7,7 @@ import Contact from "./Contact";
 
 export default function Display({isLargeScreen}) {
   return (
-    <div className={`pl-${isLargeScreen ? "60" : "0"} w-screen back text-white`}>
+<div className={`w-screen back text-white ${isLargeScreen ? 'pl-[25%]' : ''}`}>
       <Home />
       <About />
       <Resume />
