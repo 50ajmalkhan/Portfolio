@@ -43,7 +43,7 @@ export default function About() {
         </div>
 
         <div
-          className="relative flex-auto w-32 sm:w-64 sm:rounded-lg pl-4 mt-5 md:mt-0"
+          className="relative flex-auto w-full md:w-1/2 lg:w-1/3 sm:w-64 sm:rounded-lg pl-4 mt-5 md:mt-0"
           data-aos="slide-left"
         >
           <div className="motion-safe:animate-zoomy">
@@ -52,19 +52,22 @@ export default function About() {
               loop
               mode="bounce"
               src="https://assets10.lottiefiles.com/packages/lf20_w98qte06.json"
-              style={{ width: "350px" }}
+              style={{ width: "100%" }}
             />
           </div>
-          <button className="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl hover:-translate-y-1.5 duration-350 hover:duration-350 hover:bg-blue-800 hover:scale-1023 focus:bg-blue-800 animate-zoomy">
-            <a
-              href={require("../../assets/files/ajmalkhan.pdf")}
-              download="Ajmalkhan'sResume.pdf"
-            >
-              Download CV
-              <DownloadIcon />
-            </a>
-          </button>
         </div>
+      </div>
+      
+      <div className="mt-5 text-center">
+        <button className="py-3 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl hover:-translate-y-1.5 duration-350 hover:duration-350 hover:bg-blue-800 hover:scale-1023 focus:bg-blue-800 animate-zoomy">
+          <a
+            href={require("../../assets/files/ajmalkhan.pdf")}
+            download="Ajmalkhan'sResume.pdf"
+          >
+            Download CV
+            <DownloadIcon />
+          </a>
+        </button>
       </div>
     </div>
   );

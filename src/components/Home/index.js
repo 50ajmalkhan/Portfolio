@@ -26,7 +26,7 @@ export default function Home() {
             strings: [
               "✋I'm Muhammad Ajmal Khan",
               "I'm an Senior Full-Stack 🌐developer (MERN Stack)",
-              "I'm a 4th yr BSCS 👨‍🎓 in Punjab University",
+              "I graduated from Punjab University👨‍🎓 in BSCS",
               "You can 📲 me through ✉️ ajmalkhan50500@gmail.com",
             ],
             delay: 100,

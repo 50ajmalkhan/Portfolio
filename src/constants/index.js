@@ -17,6 +17,7 @@ export const projects = [
       },
     ],
     img: "https://cdn.discordapp.com/attachments/1096426516667174994/1109025615442608168/pvz.png",
+    link: "https://www.laundrycare.biz/",
     code: "https://github.com/50ajmalkhan",
   },
   {

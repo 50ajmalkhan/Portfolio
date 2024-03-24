@@ -103,7 +103,7 @@ export default function Resume() {
             <BarGraph name={"TypeScript"} percent={60} />
             <BarGraph name={"HTML/CSS"} percent={85} />
             <BarGraph name={"SQL"} percent={80} />
-            <BarGraph name={"AWS"} percent={40} />
+            <BarGraph name={"AWS"} percent={60} />
           </div>
 
           <a
